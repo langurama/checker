@@ -7,7 +7,7 @@
 
 Due to the retardedness of JavaScript not including proper checking mechanisms this library was born out of fire and glory. This package is made for Node.js and the browser.
 
-## Contents.
+## Contents
 
 -   [ Install ](#install)
 -   [ Usage ](#usage)
