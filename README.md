@@ -12,6 +12,7 @@ Due to the retardedness of JavaScript not including proper checking mechanisms t
 -   [ Install ](#install)
 -   [ Usage ](#usage)
 -   [ How it works ](#how-it-works)
+-   [ Development ](#development)
 
 <a name="install"></a>
 
@@ -118,3 +119,7 @@ You may check the `example/` directory for runnable example files.
 ## How it works
 
 This package transpiles code to `CommonJS` via `Babel` targeted at the current `Node.js` LTS version. To use this in the browser you will need to transpile it from `CommonJS` to your targeted browser(s).
+
+## Development
+
+When developing this library, it assumes that npm is using the bash shell.
