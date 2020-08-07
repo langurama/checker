@@ -2,4 +2,4 @@
 coverage/
 node_modules/
 test/.tmp/
-*type-check*.tgz
+*langurama*.tgz

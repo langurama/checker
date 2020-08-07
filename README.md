@@ -1,11 +1,11 @@
-# @langurama/type-check
+# @langurama/checker
 
-[![Build](https://img.shields.io/github/workflow/status/langurama/type-check/Langurama%20Type%20Check?style=for-the-badge)](https://github.com/langurama/type-check/actions?query=workflow%3A%22Langurama+Type+Check%22)
-[![Coverage](https://img.shields.io/codecov/c/github/langurama/type-check?style=for-the-badge)](https://codecov.io/gh/langurama/type-check/branch/master)
-[![Version](https://img.shields.io/npm/v/@langurama/type-check.svg?style=for-the-badge)](https://www.npmjs.com/package/@langurama/type-check)
-[![License](https://img.shields.io/npm/l/@langurama/type-check.svg?style=for-the-badge)](https://github.com/langurama/type-check/blob/master/LICENSE)
+[![Build](https://img.shields.io/github/workflow/status/langurama/checker/Langurama%20Checker?style=for-the-badge)](https://github.com/langurama/checker/actions?query=workflow%3A%22Langurama+Checker%22)
+[![Coverage](https://img.shields.io/codecov/c/github/langurama/checker?style=for-the-badge)](https://codecov.io/gh/langurama/checker/branch/master)
+[![Version](https://img.shields.io/npm/v/@langurama/checker.svg?style=for-the-badge)](https://www.npmjs.com/package/@langurama/checker)
+[![License](https://img.shields.io/npm/l/@langurama/checker.svg?style=for-the-badge)](https://github.com/langurama/checker/blob/master/LICENSE)
 
-Due to the retardedness of JavaScript not including proper type checking mechanisms this library was born out of fire and glory. This package is made for Node.js and the browser.
+Due to the retardedness of JavaScript not including proper checking mechanisms this library was born out of fire and glory. This package is made for Node.js and the browser.
 
 ## Contents.
 
@@ -18,14 +18,14 @@ Due to the retardedness of JavaScript not including proper type checking mechani
 ## Install
 
 ```
-npm install --save-prod --save-exact @langurama/type-check
+npm install --save-prod --save-exact @langurama/checker
 ```
 
 <a name="usage"></a>
 
 ## Usage
 
-### \<LanguramaTypeCheck\>
+### \<LanguramaChecker\>
 
 #### array(object)
 

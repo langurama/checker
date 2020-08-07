@@ -1,22 +1,22 @@
 // Local modules.
-import { default as languramaTypeCheck } from '../dist/';
+import { default as languramaChecker } from '../dist/';
 
-languramaTypeCheck.array([]);
-languramaTypeCheck.asyncFunction(async function() {});
-languramaTypeCheck.bigint(BigInt(666));
-languramaTypeCheck.boolean(true);
-languramaTypeCheck.date(new Date());
-languramaTypeCheck.error(new Error());
-languramaTypeCheck.function(function() {});
-languramaTypeCheck.generatorFunction(function*() {});
-languramaTypeCheck.nan(NaN);
-languramaTypeCheck.null(null);
-languramaTypeCheck.number(666);
-languramaTypeCheck.object({});
+languramaChecker.array([]);
+languramaChecker.asyncFunction(async function() {});
+languramaChecker.bigint(BigInt(666));
+languramaChecker.boolean(true);
+languramaChecker.date(new Date());
+languramaChecker.error(new Error());
+languramaChecker.function(function() {});
+languramaChecker.generatorFunction(function*() {});
+languramaChecker.nan(NaN);
+languramaChecker.null(null);
+languramaChecker.number(666);
+languramaChecker.object({});
 class Test {}
-languramaTypeCheck.object(new Test());
-languramaTypeCheck.object(new Proxy({}, {}));
-languramaTypeCheck.promise(new Promise(() => {}));
-languramaTypeCheck.string('hell');
-languramaTypeCheck.symbol(Symbol());
-languramaTypeCheck.undefined(undefined);
+languramaChecker.object(new Test());
+languramaChecker.object(new Proxy({}, {}));
+languramaChecker.promise(new Promise(() => {}));
+languramaChecker.string('hell');
+languramaChecker.symbol(Symbol());
+languramaChecker.undefined(undefined);

@@ -1,4 +1,4 @@
-name: Langurama Type Check
+name: Langurama Checker
 
 on:
     push:

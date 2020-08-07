@@ -6,5 +6,5 @@ src/
 test/
 _*/
 *.json
-*type-check*.tgz
+*langurama*.tgz
 .*
