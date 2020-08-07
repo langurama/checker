@@ -122,4 +122,5 @@ This package transpiles code to `CommonJS` via `Babel` targeted at the current `
 
 ## Development
 
-When developing this library, it assumes that npm is using the bash shell.
+When developing this library, it assumes that NPM is using the bash shell.
+Remember to set the correct Git email when developing.
