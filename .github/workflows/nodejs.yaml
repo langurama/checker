@@ -23,8 +23,8 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-node-
             - run: npm install
-            - run: npm run lint
-            - run: npm run style
+            - run: npm run lint:check
+            - run: npm run style:check
             - run: npm run type
             - run: npm test -- --ci
             - uses: codecov/codecov-action@v1
