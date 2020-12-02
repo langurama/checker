@@ -28,82 +28,82 @@ npm install --save-prod --save-exact @langurama/checker
 
 ### \<LanguramaChecker\>
 
-#### array(object)
+#### isArray(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### asyncFunction(object)
+#### isAsyncFunction(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### bigint(object)
+#### isBigint(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### boolean(object)
+#### isBoolean(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### date(object)
+#### isDate(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### error(object)
+#### isError(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### function(object)
+#### isFunction(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### generatorFunction(object)
+#### isGeneratorFunction(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### nan(object)
+#### isNan(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### null(object)
+#### isNull(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### number(object)
+#### isNumber(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### object(object)
+#### isObject(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### promise(object)
+#### isPromise(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### string(object)
+#### isString(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### symbol(object)
+#### isSymbol(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**
 
-#### undefined(object)
+#### isUndefined(object)
 
 -   object **\<any\>**
 -   Returns: **\<boolean\>**

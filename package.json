@@ -1,6 +1,6 @@
 {
     "name": "@langurama/checker",
-    "version": "1.0.0-rc1",
+    "version": "2.0.0-dev",
     "description": "Retardedly basic checking for Node.js and the browser.",
     "author": "Karl Morrison <karl@langurama.com>",
     "license": "MIT",

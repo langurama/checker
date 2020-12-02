@@ -1,21 +1,21 @@
 declare module '@langurama/checker' {
     interface LanguramaChecker {
-        array: (object: any) => boolean;
-        asyncFunction: (object: any) => boolean;
-        bigint: (object: any) => boolean;
-        boolean: (object: any) => boolean;
-        date: (object: any) => boolean;
-        error: (object: any) => boolean;
-        function: (object: any) => boolean;
-        generatorFunction: (object: any) => boolean;
-        nan: (object: any) => boolean;
-        null: (object: any) => boolean;
-        number: (object: any) => boolean;
-        object: (object: any) => boolean;
-        promise: (object: any) => boolean;
-        string: (object: any) => boolean;
-        symbol: (object: any) => boolean;
-        undefined: (object: any) => boolean;
+        isArray: (object: any) => boolean;
+        isAsyncFunction: (object: any) => boolean;
+        isBigint: (object: any) => boolean;
+        isBoolean: (object: any) => boolean;
+        isDate: (object: any) => boolean;
+        isError: (object: any) => boolean;
+        isFunction: (object: any) => boolean;
+        isGeneratorFunction: (object: any) => boolean;
+        isNan: (object: any) => boolean;
+        isNull: (object: any) => boolean;
+        isNumber: (object: any) => boolean;
+        isObject: (object: any) => boolean;
+        isPromise: (object: any) => boolean;
+        isString: (object: any) => boolean;
+        isSymbol: (object: any) => boolean;
+        isUndefined: (object: any) => boolean;
     }
 
     export const languramaChecker: LanguramaChecker;

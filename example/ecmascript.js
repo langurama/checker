@@ -1,22 +1,22 @@
 // Local modules.
 import { default as languramaChecker } from '../dist/';
 
-languramaChecker.array([]);
-languramaChecker.asyncFunction(async function() {});
-languramaChecker.bigint(BigInt(666));
-languramaChecker.boolean(true);
-languramaChecker.date(new Date());
-languramaChecker.error(new Error());
-languramaChecker.function(function() {});
-languramaChecker.generatorFunction(function*() {});
-languramaChecker.nan(NaN);
-languramaChecker.null(null);
-languramaChecker.number(666);
-languramaChecker.object({});
+languramaChecker.isArray([]);
+languramaChecker.isAsyncFunction(async function() {});
+languramaChecker.isBigint(BigInt(666));
+languramaChecker.isBoolean(true);
+languramaChecker.isDate(new Date());
+languramaChecker.isError(new Error());
+languramaChecker.isFunction(function() {});
+languramaChecker.isGeneratorFunction(function*() {});
+languramaChecker.isNan(NaN);
+languramaChecker.isNull(null);
+languramaChecker.isNumber(666);
+languramaChecker.isObject({});
 class Test {}
-languramaChecker.object(new Test());
-languramaChecker.object(new Proxy({}, {}));
-languramaChecker.promise(new Promise(() => {}));
-languramaChecker.string('hell');
-languramaChecker.symbol(Symbol());
-languramaChecker.undefined(undefined);
+languramaChecker.isObject(new Test());
+languramaChecker.isObject(new Proxy({}, {}));
+languramaChecker.isPromise(new Promise(() => {}));
+languramaChecker.isString('hell');
+languramaChecker.isSymbol(Symbol());
+languramaChecker.isUndefined(undefined);
