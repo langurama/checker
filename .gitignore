@@ -1,5 +1,8 @@
+# Directories.
 .ignore/
 coverage/
+dist/
 node_modules/
 test/.tmp/
+# Files.
 *langurama*.tgz
